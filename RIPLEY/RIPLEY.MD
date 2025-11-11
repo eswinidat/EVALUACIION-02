@@ -4,7 +4,7 @@ Respuesta:
 
 Usuario registrado
 Producto disponible 
-Cupo valido = ejemplo (desc 10)
+Cupo valido = desc 10
 Medio de pago
 
 DESCRIPCION: el cupón de descuento válido se aplica correctamente y la compra se completa exitosamente.
