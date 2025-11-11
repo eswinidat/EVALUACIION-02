@@ -7,6 +7,7 @@ Producto disponible
 Cupo valido = ejemplo (desc 10)
 Medio de pago
 
+descripcion: el cupón de descuento válido se aplica correctamente y la compra se completa exitosamente.
 
 Campo	Detalle
 ID	RIPLEY-01
@@ -23,11 +24,7 @@ CONFIRMA EL PAGO CON VISA
 RESULTADO ESPERADO : EL DECUENTO SE APLICA CORRECTAMENTE Y COMPRA EXITOSA   PAGO FINAL DESCONTADO
 EVIDENCIA : CAPTURA DE  PANTALLA DE COMPRA EXITOSA
 
-
-
-
-
-
+------------------------------------------------------------------------------
 
 
 FLUJO ALTERNO
@@ -35,7 +32,7 @@ Campo	Detalle
 ID	RIPLEY-02
 PRECONDICIONES	USUARIO LOGUEADO, CUPON VALIDO
 
-
+descrpcion : el sistema no realiza el descuento y muestra un mensaje indicando que el cupón no es válido o está expirado.
 PASOS
 EL USUARIO INGRESA CUPO AXPIRAD0
 
@@ -44,7 +41,7 @@ RESULTADO ESPERADO : EL SISTEMA ARROJA UN MENSAJE : CUPO AXPIRADO Y NO VALIDO
 EVIDENCIA :CAPTURA DE ERROR MOSTRADO
 
 
-
+-------------------------------------------------------------------------------------------
 
 
 
@@ -54,7 +51,7 @@ ID	RIPLEY-03
 PRECONDICIONES	TARJETA RECHAZADA
 
 
-
+descripcion: Comprobar que, si ocurre un error durante el proceso de pago tarjeta rechazada  el sistema muestra un mensaje de fallo y no procesa la compra.
 
 PASOS:
 SELECCIONAR UN PRODUCTO
